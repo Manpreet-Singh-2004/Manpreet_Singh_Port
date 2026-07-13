@@ -3,11 +3,7 @@
 import React from "react";
 import Image from "next/image";
 
-interface AboutMeProps {
-  imageSrc?: string;
-}
-
-export default function AboutMe({ imageSrc = "/photo.png" }: AboutMeProps) {
+export default function AboutMe() {
   return (
     <section className="w-full max-w-4xl mx-auto my-12 px-4">
       {/* Section Header */}
@@ -31,22 +27,6 @@ export default function AboutMe({ imageSrc = "/photo.png" }: AboutMeProps) {
           knowledge and strive for excellence together.
         </p>
 
-        {/* Profile Image Wrapper */}
-        <div className="w-32 h-32 md:w-40 md:h-40 relative flex-shrink-0 group">
-          {/* Subtle Glow Effect behind the profile image */}
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-zinc-500 rounded-full blur-md opacity-40 group-hover:opacity-60 transition duration-300"></div>
-
-          <div className="relative w-full h-full rounded-full overflow-hidden border-2 border-zinc-700 shadow-inner">
-            <Image
-              src={imageSrc}
-              alt="Manpreet Singh"
-              fill
-              sizes="(max-width: 768px) 128px, 160px"
-              className="object-cover group-hover:scale-105 transition duration-300"
-              priority
-            />
-          </div>
-        </div>
       </div>
     </section>
   );

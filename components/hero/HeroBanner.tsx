@@ -1,24 +1,27 @@
 "use client";
 
 import React from "react";
-import FloatingLines from "@/components/FloatingLines";
+import Prism from "@/components/Prism";
 
 const HeroBanner = () => {
   return (
     <div className="relative w-full h-screen bg-black overflow-hidden flex items-center justify-center">
       
+      {/* Background Interactive WebGL Prism Layer */}
       <div className="absolute inset-0 w-full h-full z-0">
-        <FloatingLines
-          enabledWaves={["top", "middle", "bottom"]}
-          lineCount={8}
-          lineDistance={8}
-          bendRadius={8}
-          bendStrength={-2}
-          interactive={true}
-          parallax={true}
-          animationSpeed={1}
-          linesGradient={["#e945f5", "#6f6f6f", "#6a6a6a"]} 
-          mixBlendMode="screen"
+        <Prism
+          animationType="rotate"
+          timeScale={0.5}
+          height={3.5}
+          baseWidth={5.5}
+          scale={3.6}
+          hueShift={0}
+          colorFrequency={1}
+          noise={0}
+          glow={1.5}
+          bloom={1.2}
+          transparent={true}
+          suspendWhenOffscreen={true}
         />
       </div>
 

@@ -1,0 +1,86 @@
+# Manpreet Singh - Technical Portfolio & LLM Context
+> Full-stack software developer building production web applications with a focus on performance, reliability, and data consistency.
+
+## Profile Summary
+- **Name:** Manpreet Singh
+- **Role:** Full-Stack Software Engineer
+- **Location:** Abbotsford, BC, Canada
+- **Portfolio:** https://manpreet-singh-npm.vercel.app/
+
+---
+
+## Technical Stack
+
+### Languages & Core Concepts
+- **Languages:** TypeScript, JavaScript, Python, Java, C++
+- **Core Competencies:** System Design, Database Design, Aggregation Pipelines, Performance Profiling, Memory Management, Rest API Architecture
+
+### Frontend
+- **Frameworks & Libraries:** React, Next.js, Tailwind CSS, Jotai
+
+### Backend & Databases
+- **Runtimes & Frameworks:** Node.js, Express, WebSocket, FastAPI
+- **Databases & ORMs:** MongoDB, PostgreSQL, Prisma
+- **Auth & Integrations:** JWT Authentication, Webhooks, Clerk, BetterAuth, Stripe, Clover API, ImageKit
+
+### DevOps, Tools & Systems
+- **Tools & Infrastructure:** Git, Docker, Vercel, Railway
+- **Operating Systems:** Linux, Windows Server, Raspberry Pi (Embedded Systems)
+
+---
+
+## Key Projects
+
+### 1. Canadian's Cart (Commercial / Contract)
+- **Role:** Software Developer (February 2026 - Present)
+- **Description:** A highly resilient multi-role e-commerce platform handling enterprise workflows for Administrators, Store Owners, Cashiers, and Customers.
+- **Key Implementations:**
+  - Designed complex MongoDB schemas and optimized aggregation pipelines for granular inventory management, invoice compilation, and automated store payouts.
+  - Integrated full payment and media workflows utilizing Stripe, Clover, and ImageKit.
+  - Mitigated race conditions and financial inconsistencies by implementing strict idempotency checks across all payment transactions.
+  - Diagnosed and resolved severe Node.js Out-Of-Memory (OOM) errors and runtime performance bottlenecks using Clinic.js and deep backend profiling tools.
+  - Engineered flexible role-based access control, secure session management, Redis-level caching layers, and high-performance fuzzy product search engines.
+
+### 2. Igram
+- **Status:** Deployed
+- **URL:** https://igram-kappa.vercel.app/
+- **Description:** Next.js e-commerce application featuring end-to-end user authentication and automated order state synchronization via Stripe webhooks.
+
+### 3. GateKeep
+- **Status:** Open Source
+- **GitHub:** https://github.com/Manpreet-Singh-2004/GateKeep
+- **Description:** A physical-digital hardware integration using an ESP8266 microcontroller to build a Wi-Fi-based shopping cart control simulation. 
+- **Technical Detail:** Evaluates signal proximity using RSSI values to accurately map physical spaces into shopping, checkout, and exit zones. Implements timed access control logic and hardware-triggered gate-lock behaviors simulating real-world asset protection workflows.
+
+### 4. File Manager
+- **Status:** Open Source
+- **GitHub:** https://github.com/Manpreet-Singh-2004/File-Manager
+- **Description:** A secure, local FTP server engineered in Node.js featuring cryptographic verification via SHA-256 hashing to guarantee end-to-end file integrity and protection during high-volume transmittals.
+
+---
+
+## Professional & Academic Experience
+
+### Canadian's Cart — Software Developer (February 2026 - Present) [Contract]
+- **Focus:** Multi-role system architecture, payment systems security, backend performance optimization, and transactional data consistency.
+- **Impact:** Architected data flows and complex MongoDB aggregation pipelines to seamlessly manage concurrent administrative, storefront, and cashier operational lifecycles. Eliminated critical financial edge cases by implementing strict idempotency layers across multi-channel payment integrations (Stripe and Clover). Leveraged profiling tools to resolve severe memory leaks, optimizing API responsiveness and ensuring system uptime under high concurrent user loads.
+
+### Loblaws — UAPP (November 2024 - Present) [Part-Time]
+- **Focus:** Real-time operational security and automated monitoring workflows.
+- **Impact:** Monitored active real-time system alerts (including physical cart lock alarms) and conducted fast mitigation responses to avoid store operational disruptions. Executed structured patrols, logging high-accuracy anomaly incident reports.
+
+### Paragon PMO — Business Analyst (May 2023 - September 2023) [Internship]
+- **Focus:** Technical requirement elicitation, systems mapping, and database integrity.
+- **Impact:** Authored 60+ production-ready user stories and highly detailed functional acceptance criteria. Created and maintained a relational database containing over 300+ structural examination queries to preserve strict tracking and traceability. Bridged alignment between UI/UX design, database engineering, and client-side project metrics.
+
+### Digital Series — Digital Intern (April 2023 - June 2023) [Full-Time]
+- **Focus:** Performance analysis, web updates, and SEO health.
+- **Impact:** Implemented optimization workflows that directly enhanced search visibility. Maintained production web layouts and synthesized analytical reports tracking system-wide user engagement metrics.
+
+---
+
+## Education & Certifications
+- **BSc in Computer Information Systems (Specialization in Software Development)**  
+  *The University of the Fraser Valley* | Graduation: April 2026
+- **Certificate in Professional Communication Essentials**  
+  *The University of the Fraser Valley* | 2026
