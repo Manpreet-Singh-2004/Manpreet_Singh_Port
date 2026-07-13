@@ -46,12 +46,12 @@ export default function Footer() {
 
         <div className="flex justify-center items-center gap-6 text-sm md:text-base font-medium">
           <a
-            href="https://instagram.com/manpreet_singh_2004?igshid=MzNlNGNkZWQ4Mg=="
+            href="mailto:mani194580@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-zinc-400 hover:text-pink-500 transition-colors duration-200"
           >
-            Instagram
+            Email
           </a>
 
           <span className="text-zinc-800" aria-hidden="true">

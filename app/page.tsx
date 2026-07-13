@@ -7,14 +7,15 @@ import Experience from "@/components/experience/Experience";
 
 const Page = () => {
   return (
-    <div className="w-full min-h-screen bg-black select-none">
+    <div className="w-full min-h-screen bg-background text-foreground select-none">
       
       <HeroBanner />
       
-      <div className="bg-zinc-950 py-12 border-t border-zinc-900">
+      {/* Dynamic light/dark card sections */}
+      <div className="bg-muted/40 py-12 border-t border-border">
         <AboutMe />
       </div>
-      <div className="bg-zinc-950 py-12 border-t border-zinc-900">
+      <div className="bg-muted/40 py-12 border-t border-border">
         <Experience />
       </div>
 
